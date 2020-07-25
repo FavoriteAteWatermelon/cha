@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ChatDetailC.h
 //  chat
 //
 //  Created by 小仙女 guluoyan.cn on 2020/7/22.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
-
+@interface ChatDetailC : UIViewController
+@property(nonatomic,strong)NSString *titleName;
 @end
 
+NS_ASSUME_NONNULL_END
